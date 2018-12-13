@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    // Turn off this rule since it does not work with next export.
+    "@next/next/no-img-element": "off"
+  }
+}
