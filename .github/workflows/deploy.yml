@@ -29,4 +29,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.GITHUBPAGES_DEPLOY_KEY }}
-          publish_dir: ./out
+          publish_dir: ./public
+          cname: adamcurtis.io
+          enable_jekyll: false
