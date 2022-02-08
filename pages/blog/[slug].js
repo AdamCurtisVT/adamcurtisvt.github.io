@@ -5,9 +5,9 @@ import path from 'path'
 import matter from 'gray-matter'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 
-import { Nav, Button } from '../../components'
+import { Nav } from '../../components'
 
-const components = { Nav, Button, SyntaxHighlighter }
+const components = { Nav, SyntaxHighlighter }
 
 const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
   return (
